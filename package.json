@@ -1,13 +1,13 @@
 {
    "name": "spr-theme",
    "displayName": "SPRK Theme",
-   "publisher": "ksPr",
+   "publisher": "sprK",
    "icon": "img/icon.png",
    "repository": {
       "url": "https://github.com/k22pr/SPR-theme"
    },
    "description": "",
-   "version": "0.7.0",
+   "version": "0.5.0",
    "engines": {
       "vscode": "^1.37.0"
    },
