@@ -1,7 +1,7 @@
 {
    "name": "spr-theme",
    "displayName": "SPRK Theme",
-   "publisher": "서버지기",
+   "publisher": "ksPr",
    "icon": "img/icon.png",
    "repository": {
       "url": "https://github.com/k22pr/SPR-theme"
