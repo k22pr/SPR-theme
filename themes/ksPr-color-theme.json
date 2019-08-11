@@ -6,6 +6,8 @@
       "input.background": "#ffffff09",
       "editor.background": "#212427",
       "editor.foreground": "#eeffff",
+      "textLink.foreground": "#4dabf7",
+      "textLink.activeForeground": "#a5d8ff",
       "list.focusBackground": "#4c5ead58",
       "list.activeSelectionBackground": "#228be6",
       "list.inactiveSelectionBackground": "#228be6",
