@@ -5,7 +5,7 @@
       // "focusBorder": "#3c7eeb42",
       "input.background": "#ffffff09",
       "editor.background": "#212427",
-      "editor.foreground": "#eeffff",
+      "editor.foreground": "#ffffff",
       "textLink.foreground": "#4dabf7",
       "textLink.activeForeground": "#a5d8ff",
       "list.focusBackground": "#4c5ead58",
@@ -45,7 +45,7 @@
       "editor.lineHighlightBorder": "#e1e9f11a",
       "editor.lineHighlightBackground": "#e1e9f10a",
       "editor.findMatchBorder": "#228be6",
-      "editorHoverWidget.statusBarBackground": "#ff922b",
+      "editorHoverWidget.statusBarBackground": "#2c3136",
       "editorHoverWidget.background": "#1e2022ee",
       "editorHoverWidget.border": "#333e49",
       "editorSuggestWidget.background": "#1e2022ee",
@@ -102,9 +102,28 @@
          "scope": [
             "keyword",
             "storage.type",
+            "storage.type.class.jsdoc"
          ],
          "settings": {
             "foreground": "#ffc078"
+         }
+      },
+      {
+         "name": "Keyword, Storage",
+         "scope": [
+            "storage.type.class",
+         ],
+         "settings": {
+            "foreground": "#ffc700"
+         }
+      },
+      {
+         "name": "keyword.operator.optional.ts",
+         "scope": [
+            "keyword.operator.optional.ts",
+         ],
+         "settings": {
+            "foreground": "#adb5bd"
          }
       },
       {
@@ -123,7 +142,8 @@
             "keyword.control.flow.ts"
          ],
          "settings": {
-            "foreground": "#99e9f2"
+            "foreground": "#99e9f2",
+            "fontStyle": "italic"
          }
       },
       {
@@ -198,7 +218,7 @@
             "variable.other.readwrite.alias",
          ],
          "settings": {
-            "foreground": "#fff4e6",
+            "foreground": "#f5f5f5",
          }
       },
       {
@@ -220,10 +240,18 @@
             "support.function",
             "entity.name.function.js",
             "keyword.other.special-method",
-            "meta.definition.method.ts"
          ],
          "settings": {
             "foreground": "#e599f7"
+         }
+      },
+      {
+         "name": "entity.name.function.ts",
+         "scope": [
+            "meta.definition.method.ts"
+         ],
+         "settings": {
+            "foreground": "#e599f7",
          }
       },
       //
@@ -237,7 +265,7 @@
             "keyword.other.special-method"
          ],
          "settings": {
-            "foreground": "#cda3fd"
+            "foreground": "#c9b6ff"
          }
       },
       {
@@ -245,9 +273,19 @@
          "scope": [
             "meta.block variable.other",
             "variable.other.constant.ts",
+            "meta.object-literal.key.ts"
          ],
          "settings": {
-            "foreground": "#f1f3f5"
+            "foreground": "#ffffff"
+         }
+      },
+      {
+         "name": "Block Level Variables",
+         "scope": [
+            "variable.other.property.ts",
+         ],
+         "settings": {
+            "foreground": "#e7f5ff"
          }
       },
       {
@@ -264,7 +302,6 @@
       {
          "name": "Constant, Function Argument, Tag Attribute, Embedded",
          "scope": [
-            "variable.other.object",
             "constant.language",
             "support.constant",
             "constant.character",
@@ -276,13 +313,41 @@
          }
       },
       {
+         "name": "Constant Language boolean",
+         "scope": [
+            "constant.language.boolean"
+         ],
+         "settings": {
+            "foreground": "#ffa94d"
+         }
+      },
+      {
+         "name": "Constant Language undefined",
+         "scope": [
+            "constant.language.undefined",
+            "constant.language.null"
+         ],
+         "settings": {
+            "foreground": "#ced4da"
+         }
+      },
+      {
+         "name": "Constant Language import-export-all",
+         "scope": [
+            "constant.language.import-export-all.ts"
+         ],
+         "settings": {
+            "foreground": "#f783ac"
+         }
+      },
+      {
          "name": "variable.other.object",
          "scope": [
             "variable.other.object",
             "support.class",
          ],
          "settings": {
-            "foreground": "#e5dbff"
+            "foreground": "#a5d8ff"
          }
       },
       {
@@ -378,7 +443,6 @@
             "support.other.namespace.php",
             "markup.changed.git_gutter",
             "support.type.sys-types",
-            "entity.name.type.ts",
             "entity.name.type.module.ts"
          ],
          "settings": {
