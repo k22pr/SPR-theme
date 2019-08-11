@@ -1,7 +1,11 @@
 {
    "name": "spr-theme",
+   "displayName": "SPRK Theme",
    "publisher": "sprK",
-   "displayName": "spr-theme",
+   "icon": "img/icon.png",
+   "repository": {
+      "url": "https://github.com/k22pr/SPR-theme",
+   },
    "description": "",
    "version": "0.3.0",
    "engines": {
