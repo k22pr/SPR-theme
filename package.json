@@ -1,26 +1,26 @@
 {
-   "name": "spr-theme",
-   "displayName": "SPRK Theme",
-   "publisher": "sprK",
-   "icon": "img/icon.png",
-   "repository": {
-      "url": "https://github.com/k22pr/SPR-theme"
-   },
-   "description": "VSCode Theme with Typescript, VueJS, scss",
-   "version": "0.11.0",
-   "engines": {
-      "vscode": "^1.37.0"
-   },
-   "categories": [
-      "Themes"
-   ],
-   "contributes": {
-      "themes": [
-         {
-            "label": "SPR Theme",
-            "uiTheme": "vs-dark",
-            "path": "./themes/ksPr-color-theme.json"
-         }
-      ]
-   }
+  "name": "arctic-night-theme",
+  "displayName": "Arctic Night Theme",
+  "publisher": "k22pr",
+  "icon": "img/icon.png",
+  "repository": {
+    "url": "https://github.com/k22pr/SPR-theme"
+  },
+  "description": "A minimal dark theme with cool blue accents, inspired by the Arctic night sky",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arctic Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ksPr-color-theme.json"
+      }
+    ]
+  }
 }
