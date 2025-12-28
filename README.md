@@ -1,5 +1,8 @@
 # Arctic Night Theme 🌌
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/k22pr.arctic-night-theme?style=flat-square&label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=k22pr.arctic-night-theme)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/k22pr.arctic-night-theme?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=k22pr.arctic-night-theme)
+
 A minimal dark theme for Visual Studio Code, inspired by the deep, calm night sky of the Arctic.
 
 ![Arctic Night Preview](img/preview.png)
@@ -26,17 +29,15 @@ For the best experience, we recommend these settings:
 {
   "editor.renderLineHighlight": "gutter",
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
-  "workbench.colorCustomizations": {
-    "[Arctic Night]": {
-      "editor.lineHeight": 1.6
-    }
-  }
+  "editor.lineHeight": 1.6
 }
 ```
 
 ## Contributing
 
 Issues and Pull Requests are welcome!
+
+- **GitHub**: [k22pr/arctic-night-theme](https://github.com/k22pr/arctic-night-theme)
 
 ## License
 

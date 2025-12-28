@@ -4,16 +4,20 @@
   "publisher": "k22pr",
   "icon": "img/icon.png",
   "repository": {
-    "url": "https://github.com/k22pr/SPR-theme"
+    "url": "https://github.com/k22pr/arctic-night-theme"
   },
   "description": "A minimal dark theme with cool blue accents, inspired by the Arctic night sky",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {
