@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     "focusBorder": "#46689450",
-    "input.background": "#161b22",
+    "input.background": "#24272c",
     "input.foreground": "#e6edf3",
     "input.border": "#30363d",
     "input.placeholderForeground": "#7d8590",
@@ -44,6 +44,8 @@
     "tab.inactiveForeground": "#7d8590",
     "tab.inactiveBackground": "#1a1d21",
     "tab.activeBorderTop": "#388bfd",
+
+    "editorGroupHeader.tabsBackground": "#1a1d21",
 
     "sideBar.background": "#1a1d21",
     "sideBar.foreground": "#e6edf3",
@@ -144,7 +146,32 @@
     "menu.selectionBackground": "#1f6feb",
     "menu.selectionForeground": "#ffffff",
     "menu.separatorBackground": "#30363d",
-    "menu.border": "#30363d"
+    "menu.border": "#30363d",
+
+    "notificationCenter.border": "#30363d",
+    "notificationCenterHeader.background": "#15181c",
+    "notificationCenterHeader.foreground": "#e6edf3",
+    "notifications.background": "#1a1d21",
+    "notifications.foreground": "#e6edf3",
+    "notifications.border": "#30363d",
+    "notificationLink.foreground": "#7fa1c4",
+    "notificationsInfoIcon.foreground": "#7fa1c4",
+    "notificationsWarningIcon.foreground": "#bfa673",
+    "notificationsErrorIcon.foreground": "#bf7e78",
+    "notificationToast.border": "#30363d",
+
+    "quickInput.background": "#1a1d21",
+    "quickInput.foreground": "#e6edf3",
+    "quickInputTitle.background": "#15181c",
+    "quickInputList.focusBackground": "#264f78",
+    "quickInputList.focusForeground": "#e6edf3",
+    "pickerGroup.border": "#30363d",
+    "pickerGroup.foreground": "#7fa1c4",
+
+    "dropdown.background": "#24272c",
+    "dropdown.foreground": "#e6edf3",
+    "dropdown.border": "#30363d",
+    "dropdown.listBackground": "#1a1d21"
   },
   "semanticTokenColors": {
     "variable": "#e6edf3",
