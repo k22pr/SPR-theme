@@ -88,10 +88,13 @@
     "editorIndentGuide.background1": "#21262d",
     "editorIndentGuide.activeBackground1": "#30363d",
 
-    "editorError.foreground": "#bf7e78",
-    "editorWarning.foreground": "#bfa673",
-    "editorInfo.foreground": "#7fa1c4",
-    "editorHint.foreground": "#7fa684",
+    "editorError.foreground": "#f44747",
+    "editorError.background": "#ff000023",
+    "editorWarning.foreground": "#f0ad4e",
+    "editorWarning.background": "#ffff0023",
+    "editorInfo.foreground": "#4fc1ff",
+    "editorInfo.background": "#00ffff23",
+    "editorHint.foreground": "#4ec9b0",
 
     "gitDecoration.modifiedResourceForeground": "#bfa673",
     "gitDecoration.deletedResourceForeground": "#bf7e78",

@@ -7,7 +7,7 @@
     "url": "https://github.com/k22pr/arctic-night-theme"
   },
   "description": "A minimal dark theme with cool blue accents, inspired by the Arctic night sky",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.96.0"
   },
